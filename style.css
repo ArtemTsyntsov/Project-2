@@ -148,6 +148,10 @@ header .logo, header .menu, header .btn{
 	border-radius: 35px;
 }
 
+.container2 .heading a:hover, header .btn a:hover, .container7 .columns a:hover,.container8 .btnf:hover{
+	background-color: #999999;
+}
+
 .container3 h2{
 	margin-top: 95px;
 	font-size: 30px;
@@ -209,6 +213,98 @@ header .logo, header .menu, header .btn{
 	font-family: 'Nunito', sans-serif;
 	font-weight: 300;
 	color: #333333;
+}
+
+
+
+.container4{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr; /*repeat(3, 1fr)*/
+	grid-template-rows: 1fr 1fr 1fr;
+background-color: #f8f8f8;
+}
+
+.container4 div:nth-child(5){
+	background-color: #ffffff;
+}
+
+.container4 .item{
+	margin: auto;
+}
+
+.container4 .item span, .container4 .item6 span, .container4 .item7 span{
+	color: #141311;
+	font-family: 'Ubuntu',sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+	display: block;
+	width: 50%;
+	margin-left: 20%;
+}
+
+.container4 .item i, .container4 .item6 i, .container4 .item7 i{
+	display: block;
+	background-color: #000000;
+	width: 35px;
+	height: 2px;
+	margin-left: 20%;
+	margin-top: 12px
+}
+
+.container4 .item p, .container4 .item6 p, .container4 .item7 p{
+	font-family: 'Nunito', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #141311;
+	margin-top: 27px;
+	margin-left: 20%;
+	width: 60%;
+}
+
+.container4 .item6{
+	background-image: url("./img/grid-img3.png");
+	background-repeat: no-repeat;
+	background-color: #323232;
+	grid-column: 3/4;
+	grid-row: 2/4;
+	background-size: contain;
+}
+
+.container4 .item6 span, .container4 .item6 p{
+	color: #ffffff;
+}
+
+.container4 .item6 span{
+	margin-top: 80%;
+}
+
+.container4 .item6 i{
+	background-color: #ffffff;
+}
+
+.container4 .item7{
+	background-image: url("./img/grid-img4.png");
+	background-repeat: no-repeat;
+	grid-column: 1/3;
+	grid-row: 3/4;
+	background-size: contain;
+}
+
+.container4 .item7 p{
+	width: 30%;
+	margin-left: 10%;
+}
+
+.container4 .item7 span, .container4 .item7 i{
+	margin-left: 10%;
+}
+
+.container4 .item7 span{
+	margin-top: 10%;
+}
+
+.container4 img{
+	max-width: 100%;
 }
 
 .container7{
@@ -293,4 +389,141 @@ header .logo, header .menu, header .btn{
 .container7 .columns div:nth-child(2) a, .container7 .columns div:nth-child(3) a{
 	padding: 25px 50px;
 	border-radius: 35px;
+}
+
+.container8{
+	background-color: #e8e9ea;
+	padding-top: 140px;
+	padding-bottom: 115px;
+}
+
+.container8 h2{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 48px;
+	color: #000000;
+	text-align: center;
+	margin-bottom: 70px;
+}
+
+.container8 .grid{	
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr; /*repeat(3, 1fr)*/
+	grid-template-rows: 1fr 1fr;
+	height: 600px;
+	grid-column-gap: 30px;
+	grid-row-gap: 30px;
+}
+
+.container8 .grid .itemg1{
+	background-image: url("./img/grid2-img1.png");
+	background-repeat: no-repeat;
+	grid-column: 1/2;
+	grid-row: 1/3;
+	background-size: cover;
+	height: 100%;
+}
+
+.container8 .grid .itemg1 a, .container8 .grid .itemg2 a, .container8 .grid .itemg3 .btns a, .container8 .grid .itemg4 a, .container8 .grid .itemg5 a{
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 10px;
+	background-color: #8d7431;
+	color: #ffffff;
+	padding: 10px 17px;
+	border-radius: 15px;
+	margin-left: 10px;
+	margin-top: 10px;
+	width: max-content;
+	display: block;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.container8 .grid .itemg1 a:hover, .container8 .grid .itemg2 a:hover, .container8 .grid .itemg3 .btns a:hover, .container8 .grid .itemg4 a:hover, .container8 .grid .itemg5 a:hover{
+	background-color: black;
+}
+
+.container8 .grid .itemg1 span{
+	color: #ffffff;
+	margin-top: 37%;
+	text-align: center;
+	width: 75%;
+	margin-left: 10%;
+	display: block;
+	font-size: 30px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	line-height: 1.3;
+}
+
+.container8 .grid .itemg1 p{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #ffffff;
+	text-align: center;
+	margin-top: 30px;
+	letter-spacing: 2px;
+}
+
+.container8 .grid .itemg1 p em{
+	text-decoration: none;
+	color: #c89d28;
+}
+
+.container8 .grid .itemg2{
+	background-image: url("./img/grid2-img2.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.container8 .grid .itemg2 p, .container8 .grid .itemg3 p, .container8 .grid .itemg4 p, .container8 .grid .itemg5 p{
+	display: block;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 22px;
+	color: #333333;
+	margin-top: 70%;
+	width: 93%;
+}
+
+.container8 .grid .itemg3{
+	background-image: url("./img/grid2-img3.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.container8 .grid .itemg3 .btns{
+	display: flex;
+}
+
+.container8 .grid .itemg4{
+	background-image: url("./img/grid2-img4.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.container8 .grid .itemg5{
+	background-image: url("./img/grid2-img5.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.container8 .btnf{
+	text-decoration: none;
+	display: block;
+	width: max-content;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	color: #333333;
+	padding: 25px 90px;
+	border-radius: 30px;
+	background-color: #ffffff;
+	margin: 0 auto;
+	margin-top: 60px;
 }
