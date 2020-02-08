@@ -307,6 +307,71 @@ background-color: #f8f8f8;
 	max-width: 100%;
 }
 
+.container5 .left_content img{
+	max-width: 100%;
+}
+
+.container5 .right_content{
+	font-family: 'Ubuntu', sans-serif;
+	margin-left: 60px;
+}
+
+.container5{
+	margin-top: 180px;
+	margin-bottom: 215px;
+}
+
+.container5 .row{
+	margin-left: -30px;
+}
+
+.container5 h3{
+	font-size: 48px;
+	color: #000000;
+	font-weight: 300;
+}
+
+.container5 .right_content .txt_right{
+	font-size: 24px;
+	color: #333333;
+	font-weight: 300;
+	margin-top: 45px;
+}
+
+.container5 .right_content svg{
+	font-size: 56px;
+	color: #d3b051;
+}
+
+.container5 .right_content span{
+	font-weight: 400;
+	font-size: 22;
+	color: #222222;
+}
+
+.container5 .right_content p{
+	font-size: 14px;
+	color: #4e4e4e;
+	margin-bottom: 90px;
+	font-weight: 300;
+}
+
+.container5 a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #333333;
+	font-weight: 700;
+	text-transform: uppercase;
+	background-color: #e5e1e1;
+	padding: 25px 95px;
+	border-radius: 40px;
+}
+
+.container5 a:hover, .container12 a:hover{
+	background-color: #4e4e4e;
+	color: #ffffff;
+}
+
 .container7{
 	background-image: url("./img/block7.png");
 	background-repeat: no-repeat;
@@ -326,11 +391,13 @@ background-color: #f8f8f8;
 
 .container7 .columns{
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
 .container7 .columns div{
 	padding: 0 90px;
+
 }
 
 .container7 .columns div:nth-child(2){
@@ -584,6 +651,9 @@ background-color: #f8f8f8;
 	.container9 .description3 p, .container9 .description5 p{
 		font-size: 12px;
 	}
+	.container5 .right_content{
+		margin-left: 30px;
+	}
 }
 
 @media(max-width:768px){
@@ -599,6 +669,9 @@ background-color: #f8f8f8;
 @media(max-width:576px){
 	.container9 .description2 svg, .container9 .description4 svg{
 		margin-bottom: 60px;
+	}
+	.container5 .right_content{
+		margin-left: 15px;
 	}
 }
 
@@ -643,4 +716,176 @@ background-color: #f8f8f8;
 	padding-right: 10%;
 	margin-top: 115px;
 	line-height: 1.2;
+}
+
+.container11{
+	text-align: center;
+}
+
+.container11 .descr1 h3{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+	color: #333333;
+	margin-top: 150px;
+	margin-bottom: 100px;
+}
+
+.container11 .descr2{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.container11 .descr3{
+	padding: 0 19%;
+}
+
+.container11 .descr3 .text1{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 27px;
+	color: #333333;
+	margin-top: 140px;
+	margin-bottom: 50px;
+}
+
+.container11 .descr4{
+	text-align: left;
+	margin-bottom: 60px;
+}
+
+.container11 .descr4 span{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	color: #333333;
+	text-transform: uppercase;
+	line-height: 24px;
+}
+
+.container11 .descr4 .text2{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: #999999;
+}
+
+.container11 .descr5{
+	margin-bottom: 160px;
+}
+
+.container11 .descr5 a{
+	text-decoration: none;
+	padding: 0 8px;
+}
+
+.container12{
+	background-image: url("./img/block12.png");
+	background-repeat: no-repeat;
+	max-height: 1090px;
+	text-align: center;
+	padding-top: 110px;
+	padding-bottom: 150px;
+}
+
+.container12 h3{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+	color: #ffffff;
+	margin-bottom: 30px;
+}
+
+.container12 p{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 22px;
+	font-weight: 300;
+	color: #cccccc;
+	line-height: 27px;
+	margin-bottom: 55px;
+}
+
+.container12 a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #333333;
+	border-radius: 30px;
+	background-color: #ffffff;
+	padding: 25px 80px;
+}
+
+.container13{
+	color: #ffffff;
+	background-color: #0d0d0d;
+	padding-top: 175px;
+	padding-bottom: 130px;
+}
+
+.container13 span{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.container13 .descr1{
+	padding-right: 105px;
+}
+
+.container13 .descr1 .text1{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 21px;
+	color: #666666;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.container13 .descr1 .icons svg{
+	font-size: 12px;
+	color: #666666;
+	margin-right: 50px;
+}
+
+.container13 .descr2, .container13 .descr3, .container13 .descr4{
+	padding-left: 50px;
+}
+
+.container13 .text2{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 32px;
+	color: #666666;
+	margin-top: 30px;
+	margin-bottom: 80px;
+}
+
+.container13 i{
+	border: 1px solid #1d1d1d;
+	width: 1200px;
+	margin-bottom: 60px;
+}
+
+.container13 .descr5 .text3{
+	text-transform: uppercase;
+	font-size: 11px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	color: #999999;
+}
+
+.container13 .descr5 .text3 .yellow{
+	color: #8d7431;
+	text-transform: uppercase;
+	font-size: 11px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
 }
