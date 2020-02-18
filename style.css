@@ -654,6 +654,25 @@ background-color: #f8f8f8;
 	.container5 .right_content{
 		margin-left: 30px;
 	}
+	header .menu, .header .btn{
+		display: none;
+	}
+	header .burger{
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		background-color: #666666;
+	}
+	header .burger i{
+		display: block;
+		width: 80%;
+		height: 4px;
+		margin: 4px auto;
+		background-color: #d3b051;
+	}
+	header .show{
+		display: flex;
+	}
 }
 
 @media(max-width:768px){
@@ -772,7 +791,7 @@ background-color: #f8f8f8;
 	color: #999999;
 }
 
-.container11 .descr5{
+.container11 .owl-carousel{
 	margin-bottom: 160px;
 }
 

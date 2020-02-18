@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./all.css">
     <link rel="stylesheet" href="./style/animate.css">
+    <link rel="stylesheet" href="./owl.carousel.min.css">
+    <link rel="stylesheet" href="./owl.theme.default.min.css">
 </head>
 <body>
     <div class="wrapper">
@@ -18,17 +20,22 @@
             <div class="logo">
                 <img src="./img/logo.png" alt="logo">
             </div>
-            <div class="menu">
+            <div class="menu" id="menu">
                 <ul>
                     <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
+                    <li><a href="#container5">Services</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
-            <div class="btn">
+            <div class="btn" id="btn">
                 <a href="#">BUY NOW</a>
             </div>
+            <span class="burger" id="burger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
         </header>
         <section class="container2">
             <div class="heading">
@@ -95,7 +102,7 @@
                 <p>Add as many language packs as you want, to showcase your website across the entire globe.</p>
             </div>
         </section>
-        <section class="container5">
+        <section class="container5" id="container5">
             <div class="container-fluid">
                 <div class="row">
                     <div class="left_content wow tada col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12" data-wow-duration="3s">
@@ -289,21 +296,37 @@
                             <img src="./img/brend5.png">
                         </div>
                     </div> 
-                    <div class="descr3 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                        <p class="text1">“Bought this theme sometime ago and is so pleased with the flexibility of the theme... 
-                            You guys deserve a five star wich you got from me.”</p>                 
-                    </div> 
-                    <div class="descr4 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 offset-xl-3 offset-lg-3 offset-md-3 offset-sm-3 offset-3">
-                        <span>PERRY ANDREWS</span>
-                        <p class="text2">SWIFT Inc.</p>
-                    </div>
-                    <div class="descr5 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
-                        <a href="#" class="left">
-                            <img src="./img/left.png">
-                        </a>
-                        <a href="#" class="right">
-                            <img src="./img/right.png">
-                        </a>
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="descr3 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <p class="text1">“Bought this theme sometime ago and is so pleased with the flexibility of the theme... 
+                                    You guys deserve a five star wich you got from me.”</p>                 
+                            </div> 
+                            <div class="descr4 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 offset-xl-3 offset-lg-3 offset-md-3 offset-sm-3 offset-3">
+                                <span>PERRY ANDREWS</span>
+                                <p class="text2">SWIFT Inc.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="descr3 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <p class="text1">“Bought this theme sometime ago and is so pleased with the flexibility of the theme... 
+                                    You guys deserve a five star wich you got from me.”</p>                 
+                            </div> 
+                            <div class="descr4 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 offset-xl-3 offset-lg-3 offset-md-3 offset-sm-3 offset-3">
+                                <span>PERRY ANDREWS</span>
+                                <p class="text2">SWIFT Inc.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="descr3 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                <p class="text1">“Bought this theme sometime ago and is so pleased with the flexibility of the theme... 
+                                    You guys deserve a five star wich you got from me.”</p>                 
+                            </div> 
+                            <div class="descr4 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 offset-xl-3 offset-lg-3 offset-md-3 offset-sm-3 offset-3">
+                                <span>PERRY ANDREWS</span>
+                                <p class="text2">SWIFT Inc.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -369,7 +392,9 @@
         </section>
         
     </div>
+    <script src="./script.js"></script>
     <script src="./style/wow.min.js"></script>
+    
     <script>
         new WOW().init();
         </script>
@@ -377,5 +402,25 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="./owl.carousel.min.js"></script>
+    <script>
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+    </script>
 </body>
 </html>
